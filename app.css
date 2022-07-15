@@ -42,3 +42,16 @@ canvas {
     font-size: 20px;
     overflow: hidden;
 }
+
+#ground {
+    width: 300px;
+    padding: 0.5px;
+    height: 1;
+    background: white;
+    position: absolute;
+    bottom: 100px;
+    z-index: 10;
+    right: 50%;
+    transform: translate(50%, 0);
+    overflow:hidden;
+}
